@@ -5,6 +5,8 @@
       src="//normalize-css.googlecode.com/svn/trunk/normalize.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#317EFB"/>
 
     <link
       rel="stylesheet"
@@ -33,6 +35,7 @@
       <section role="region">
         <div class="filter-options" role="search">
           <h2 role="heading">Filter Results</h2>
+          <label for="neighborhoods-select">Neighborhood</label>
           <select
             id="neighborhoods-select"
             role="listbox"
@@ -41,6 +44,7 @@
           >
             <option value="all">All Neighborhoods</option>
           </select>
+          <label for="cuisines-select">Cuisine</label>
           <select
             id="cuisines-select"
             role="listbox"
