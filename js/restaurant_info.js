@@ -89,7 +89,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   name.innerHTML = restaurant.name;
   
   const favorite = document.getElementById('restaurant-favorite');
-  favorite.checked = restaurant.is_favorite;
+  favorite.checked = restaurant.is_favorite === true || restaurant.is_favorite === 'true' ;
 
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
