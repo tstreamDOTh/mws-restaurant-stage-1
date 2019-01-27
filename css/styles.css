@@ -231,8 +231,7 @@ nav h1 a {
   width: 100%; }
 
 .inside #footer {
-  bottom: 0;
-  position: absolute;
+  position: relative;
   width: calc(50% - 50px); }
 
 #restaurant-name {
@@ -379,8 +378,7 @@ nav h1 a {
     margin: 0;
     width: calc(100% - 80px); }
   .inside #footer {
-    bottom: 0;
-    position: absolute;
+    position: relative;
     width: calc(100% - 50px); } }
 
     h1{
